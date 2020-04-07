@@ -5,24 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.atguigu.javase</groupId>
-    <artifactId>atguigu-javase</artifactId>
+    <artifactId>atguigu-java-se</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>day22_enum_annotation</module>
-    </modules>
 
-    <properties>
-        <java.version>1.8</java.version>
-        <encoding>UTF-8</encoding>
-        <junit.version>4.12</junit.version>
-    </properties>
+    <modules>
+        <module>day05-array</module>
+    </modules>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -34,9 +29,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.6.0</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>${encoding}</encoding>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
